@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46ff2c4c45e0524c927122dd0ff3ad9, type: 3}
+  m_Name: 00000000
+  m_EditorClassIdentifier: 
+  ID: 00000000
+  teamName: Team FC
+  shortName: TFC
+  lineUp:
+  - {fileID: 11400000, guid: 0caef0d5f3a55b948a515a93072daea0, type: 2}
+  - {fileID: 11400000, guid: 5d9e40c2f9cebaa4a8e571f5d878a6fd, type: 2}
+  - {fileID: 11400000, guid: 56d632b2720636b4d9f08167a2bb2cec, type: 2}
+  - {fileID: 11400000, guid: c69e062343b5ff5468abee8194d0bc31, type: 2}
+  - {fileID: 11400000, guid: b7b8407d5d87cfb419b8c78d9c9bae81, type: 2}
+  - {fileID: 11400000, guid: dea0152e9e861d2428ce14d5a2c6e20c, type: 2}
+  - {fileID: 11400000, guid: b159a37261cc27c4fa5ea4fa7695b864, type: 2}
+  - {fileID: 11400000, guid: 878c7fdb6f325284bbb12e828fc1866e, type: 2}
+  - {fileID: 11400000, guid: e3020bd299f0e0941902f7c277958d18, type: 2}
+  - {fileID: 11400000, guid: 8b35c9c8c45888943af3610082d46063, type: 2}
+  - {fileID: 11400000, guid: 94601ff0db11ac049a0991ee74f52306, type: 2}
