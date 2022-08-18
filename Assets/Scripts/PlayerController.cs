@@ -92,7 +92,8 @@ public class PlayerController : MonoBehaviour
             playerVelocity.y = 0f;
         }
 
-        Vector3 target = Vector3.Normalize(ball.transform.position - transform.position);
+        Vector3 ballPos = new Vector3(ball.transform.position.x, transform.position.y, ball.transform.position.z);
+        Vector3 target = Vector3.Normalize(ballPos - transform.position);
         move = isDribble ? target : new Vector3(input.Move.x,0,input.Move.y);
         controller.Move(move * Time.deltaTime * targetSpeed);
         
@@ -117,12 +118,12 @@ public class PlayerController : MonoBehaviour
         isDribble = Distance <= 4f? true:false;
         Vector3 direction = new Vector3 (input.Move.x, 0f, input.Move.y);
 
-        if(isDribble && Distance <= 1.25f)
+        if(isDribble && Distance <= 0.8f)
         {
             if(direction == Vector3.zero)
                 ball.GetComponent<Rigidbody>().AddForce(playerManager.transform.forward * 2);
             else
-                ball.GetComponent<Rigidbody>().AddForce(direction * 4f);
+                ball.GetComponent<Rigidbody>().AddForce(direction * 5f);
         }
     }
     private void KickOff()

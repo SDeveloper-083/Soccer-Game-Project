@@ -87,7 +87,6 @@ public class TeamManager : MonoBehaviour
         Form4231,
 
     };
-    static int size = 11;
     public void Form433KickOffAtk()
     {
         position[0] = new Vector3(-57, 0, 0);
@@ -96,11 +95,11 @@ public class TeamManager : MonoBehaviour
         position[3] = new Vector3(-33, 0, -30);
         position[4] = new Vector3(-33, 0, 30);
         position[5] = new Vector3(-15, 0, -24);
-        position[6] = new Vector3(-17, 0, 0);
+        position[6] = new Vector3(-7, 0, 0);
         position[7] = new Vector3(-15, 0, 24);
         position[8] = new Vector3(-2, 0, -28);
-        position[9] = new Vector3(-2, 0, 28);
-        position[10] = new Vector3(0, 0, 0.5f);
+        position[9] = new Vector3(-1, 0, 28);
+        position[10] = new Vector3(0.5f, 0, 0);
     }
     public void Form433KickOffDef()
     {
@@ -110,10 +109,10 @@ public class TeamManager : MonoBehaviour
         position[3] = new Vector3(-33, 0, -30);
         position[4] = new Vector3(-33, 0, 30);
         position[5] = new Vector3(-15, 0, -24);
-        position[6] = new Vector3(-17, 0, 0);
+        position[6] = new Vector3(-7, 0, 0);
         position[7] = new Vector3(-15, 0, 24);
         position[8] = new Vector3(-2, 0, -28);
-        position[9] = new Vector3(-2, 0, 28);
+        position[9] = new Vector3(-1, 0, 28);
         position[10] = new Vector3(-1, 0, 11);
     }
 
